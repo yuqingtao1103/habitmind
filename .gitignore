@@ -1,0 +1,21 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn*.log
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Env files（很重要，别上传）
+.env
+.env.*
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+
+# Misc
+.DS_Store
